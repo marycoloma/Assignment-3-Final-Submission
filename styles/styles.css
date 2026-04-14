@@ -53,6 +53,18 @@ h2 {
   margin-bottom: 12px;
 }
 
+.large-text {
+  font-size: 24px;
+}
+
+.fake-button {
+  background-color: #e5af42;
+  text-align: center;
+  line-height: 3;
+  border: 1px solid #000000;
+  display: inline-block;
+}
+
 /************* header/footer styling *************/
 
 /* TO DO:
