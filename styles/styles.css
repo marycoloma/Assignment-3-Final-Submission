@@ -115,6 +115,16 @@ main {
   margin: 25px 0 50px 0;
 }
 
+footer {
+  height: 60px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 /************* index page *************/
 
 /* TO-DO: 
