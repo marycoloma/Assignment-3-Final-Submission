@@ -42,6 +42,11 @@ body {
         - change the text colour to white, and 
         - change the cursor to pointer.
 */
+h1 {
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+}
 
 /************* header/footer styling *************/
 
