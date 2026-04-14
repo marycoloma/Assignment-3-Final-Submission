@@ -65,6 +65,24 @@ h2 {
   display: inline-block;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+main a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+.fake-button:hover,
+.blue-hover:hover {
+  text-decoration: underline;
+  background-color: #4278e5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 /************* header/footer styling *************/
 
 /* TO DO:
