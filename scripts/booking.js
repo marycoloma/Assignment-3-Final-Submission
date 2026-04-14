@@ -44,4 +44,7 @@ fullSelectButton.addEventListener("click", function () {
 });
 
 /********* calculate *********/
-// when a calculation is needed, set the innerHTML of the calculated-cost element to the appropriate value
+function calculateCost() {
+  const total = dayCounter * dailyCost;
+  costSelectButton.textContent = total;
+}
