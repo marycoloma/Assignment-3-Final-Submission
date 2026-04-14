@@ -9,8 +9,15 @@ let dayCounter = 0;
 let dailyCost = 35;
 
 /********* colour change days of week *********/
-// when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
-// added challenge: don't update the dayCounter if the same day is clicked more than once. hint: .classList.contains() might be helpful here!
+daySelectors.forEach(function (day) {
+  day.addEventListener("click", function () {
+    if (!day.classList.contains("clicked")) {
+      day.classList.add("clicked");
+      dayCounter++;
+      calculateCost();
+    }
+  });
+});
 
 /********* clear days *********/
 // when the clear-button is clicked, the "clicked" class is removed from all days, any other relevant variables are reset, and the calculated cost is set to 0.
