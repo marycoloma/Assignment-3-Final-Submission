@@ -10,6 +10,5 @@ submitSelectButton.addEventListener("click", function (event) {
 
   contactPage.innerHTML = "";
   contactPage.appendChild(message);
-
   contactPage.classList.add("thank-you");
 });
