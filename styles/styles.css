@@ -37,6 +37,12 @@ body {
         - change the text colour to white, and 
         - change the cursor to pointer.
 */
+body {
+  width: 950px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
 
 /************* header/footer styling *************/
 
