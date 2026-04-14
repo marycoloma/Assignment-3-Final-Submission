@@ -21,6 +21,11 @@ body {
   line-height: 1.5;
 }
 
+/* flex containers */
+.flex {
+  display: flex;
+}
+
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
 /************* site-wide text styling *************/
@@ -37,17 +42,6 @@ body {
         - change the text colour to white, and 
         - change the cursor to pointer.
 */
-body {
-  width: 950px;
-  margin: 0 auto;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-}
-
-/* flex containers */
-.flex {
-  display: flex;
-}
 
 /************* header/footer styling *************/
 
