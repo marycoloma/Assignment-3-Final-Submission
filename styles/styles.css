@@ -155,6 +155,10 @@ footer {
   font-size: 18px;
 }
 
+.booking-page {
+  margin-bottom: 50px;
+}
+
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
