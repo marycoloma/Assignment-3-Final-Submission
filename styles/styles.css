@@ -181,6 +181,16 @@ footer {
   margin-bottom: 24px;
 }
 
+#clear-button {
+  width: 200px;
+  margin: 24px auto 0 auto;
+  display: block;
+}
+
+.clicked {
+  background-color: #e5af42;
+}
+
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
