@@ -101,6 +101,16 @@ header {
   height: 150px;
 }
 
+header .flex {
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 25px 0 25px 25px;
+}
+
 /************* index page *************/
 
 /* TO-DO: 
