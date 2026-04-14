@@ -215,3 +215,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.contact form {
+  margin: 0 auto;
+}
