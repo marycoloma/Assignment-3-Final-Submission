@@ -145,6 +145,22 @@ footer {
   margin-bottom: 50px;
 }
 
+.index section {
+  flex: 1;
+}
+
+.index h2 {
+  line-height: 36px;
+}
+
+.index p {
+  margin-bottom: 12px;
+}
+
+.index .flex:last-child {
+  justify-content: center;
+}
+
 /************* bookings page *************/
 
 /* TO-DO:
