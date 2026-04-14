@@ -219,3 +219,9 @@ footer {
 .contact form {
   margin: 0 auto;
 }
+
+.contact form .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
