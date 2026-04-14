@@ -176,6 +176,11 @@ footer {
   padding: 5px;
 }
 
+.top-margin {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
