@@ -171,6 +171,11 @@ footer {
   text-align: center;
 }
 
+.small-button {
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
 /************* contact page *************/
 /* TO DO:
     - the main section of the .contact page will be 420px tall, and centered.
