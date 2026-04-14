@@ -92,6 +92,10 @@ footer a:hover {
     - there will be 25px of space between the header and main, and 50px of space between main and footer.
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
+header,
+footer {
+  background-color: #e5af42;
+}
 
 /************* index page *************/
 
