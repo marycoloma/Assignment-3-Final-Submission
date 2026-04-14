@@ -148,6 +148,12 @@ footer {
     - all items within the page will be centered within their available space.
 
 */
+.booking-page {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
 
 /************* contact page *************/
 /* TO DO:
