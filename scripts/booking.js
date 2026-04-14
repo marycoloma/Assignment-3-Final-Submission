@@ -1,6 +1,10 @@
 /********* create variables *********/
 const daySelectors = document.querySelectorAll(".day-selector li");
 const fullSelectButton = document.getElementById("full");
+const halfSelectButton = document.getElementById("half");
+const clearSelectButton = document.getElementById("clear-button");
+const costSelectButton = document.getElementById("calculated-cost");
+
 /********* colour change days of week *********/
 // when the day buttons are clicked, we will apply the "clicked" class to that element, and update any other relevant variables. Then, we can recalculate the total cost.
 // added challenge: don't update the dayCounter if the same day is clicked more than once. hint: .classList.contains() might be helpful here!
