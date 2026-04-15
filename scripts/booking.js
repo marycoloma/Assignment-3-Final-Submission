@@ -37,7 +37,7 @@ halfSelectButton.addEventListener("click", function () {
 });
 
 fullSelectButton.addEventListener("click", function () {
-  dailyRate = 35;
+  dailyCost = 35;
   fullSelectButton.classList.add("clicked");
   halfSelectButton.classList.remove("clicked");
   calculateCost();
